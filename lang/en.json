@@ -1,0 +1,28 @@
+{
+  "GWQ": {
+    "Settings": {
+      "Enabled": "Enable Weapon Quality Dice",
+      "EnabledHint": "Automatically applies dice modifiers from weapon qualities (e.g. Accurate 1 → +1 Boost die) to every attack roll.",
+      "CustomQualities": "Custom Quality Map (JSON)",
+      "CustomQualitiesHint": "Advanced: a JSON object mapping quality names to dice modifications. Keys are quality names exactly as written on the item. Each entry has 'glyphs' (array) and 'rated' (bool). Glyphs: B=Boost, S=Setback, A=Ability, P=Proficiency, D=Difficulty, C=Challenge, ^=Upgrade Ability die, *=Downgrade Ability die, _=Upgrade Difficulty die, ~=Downgrade Difficulty die. Example: {\"Guided\":{\"glyphs\":[\"^\"],\"rated\":false},\"Inaccurate\":{\"glyphs\":[\"S\"],\"rated\":true}}"
+    },
+    "UI": {
+      "QualityModsLabel": "Weapon Quality Modifiers",
+      "QualityModsHint": "These dice will be added automatically when you click Roll.",
+      "NoMods": "No quality dice modifiers for this weapon.",
+      "AppliedNotice": "Quality modifiers applied"
+    },
+    "Glyphs": {
+      "B": "Boost",
+      "S": "Setback",
+      "A": "Ability",
+      "P": "Proficiency",
+      "D": "Difficulty",
+      "C": "Challenge",
+      "^": "Upgrade Ability",
+      "*": "Downgrade Ability",
+      "_": "Upgrade Difficulty",
+      "~": "Downgrade Difficulty"
+    }
+  }
+}
