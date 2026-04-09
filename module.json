@@ -2,8 +2,10 @@
   "id": "genesys-weapon-qualities",
   "title": "Genesys Weapon Qualities",
   "url": "https://github.com/Stormyvil/Genesys-Weapon-Qualities",
+  "manifest":"https://github.com/Stormyvil/Genesys-Weapon-Qualities/releases/download/1.0.1/module.json",
+  "download":"https://github.com/Stormyvil/Genesys-Weapon-Qualities/releases/download/1.0.1/genesys-weapon-qualities.zip",
   "description": "Automatically applies weapon item quality dice modifiers to attack rolls in the Genesys system.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "12",
     "verified": "13",
